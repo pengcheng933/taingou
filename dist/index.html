@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <link rel="icon" href="favicon.ico">
+  <link href="at.alicdn.com/t/font_3411654_mfl4161cjtr.css">
+  <title>tiangou</title>
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+  <script defer="defer" src="js/chunk-vendors.555a2233.js"></script>
+  <script defer="defer" src="js/app.d700e3dc.js"></script>
+  <link href="css/chunk-vendors.d6627e31.css" rel="stylesheet">
+  <link href="css/app.9a44e859.css" rel="stylesheet">
+</head>
+
+<body><noscript><strong>We're sorry but tiangou doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong></noscript>
+  <div id="app"></div>
+</body>
+<script>(function () {
+    function autoRootFontSize() {
+      document.documentElement.style.fontSize = Math.min(screen.width, document.documentElement
+        .getBoundingClientRect().width) / 470 * 32 + 'px';
+      // 取screen.width和document.documentElement.getBoundingClientRect().width的最小值；
+      // 除以750，乘以32；意思就是相对于750大小的32px;
+      // 即如果屏幕大小变成了375px,那么字体就是16px;也就是根字体fontSize大小和屏幕大小成正比变化！
+    }
+    window.addEventListener('resize', autoRootFontSize);
+    autoRootFontSize();
+  })();</script>
+
+</html>
