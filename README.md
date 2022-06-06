@@ -84,6 +84,7 @@
 2. 进入到tiangou\BE目录下npm i 下载依赖
 3. 构建mongo数据库集合，结构如下
 - 产品集合
+```json
 {
     "_id" : ObjectId("6283955984e1ae4d374484d5"),
     "name" : "牙刷",
@@ -91,12 +92,16 @@
     "price" : "199.00",
     "picture" : "https://img13.360buyimg.com/jdcms/s300x300_jfs/t1/52850/15/18006/152250/628361c9Ea341626d/070ac09517d9108b.jpg.webp"
 }
+```
 - 轮播图集合
+```json
 {
     "_id" : ObjectId("62839b4884e1ae4d37448664"),
     "picture" : "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2F811%2F112414123216%2F141124123216-0-1200.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1655384047&t=0d618c717b95385b9b54d955c31b3bea"
 }
+```
 - 用户集合
+```json
 {
     "_id" : ObjectId("6294c8da34bc8f9ed1c9bfa3"),
     "username" : "jack2",
@@ -104,6 +109,7 @@
     "__v" : 0,
     "avatarUrl" : "https://img1.baidu.com/it/u=722430420,1974228945&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500"
 }
+```
 4. npm start 启动后端程序
 ## 前端
 1. tiangou\目录下npm i 下载依赖
